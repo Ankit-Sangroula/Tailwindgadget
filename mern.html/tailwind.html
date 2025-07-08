@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>head>
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!--text:sm,md,lg,xl,2xl,3xl -->
+    <h1 class="text-lg">hello world</h1>
+
+    <!--text align-->
+    <h1 class="text-center underline">man</h1>
+
+    <!--color text-color-intensity,background:bg-color-intensity-->
+    <h1 class="text-red-500 bg-blue-200">color</h1>
+    <span class="text-red-500 bg-green-200">Span</span>
+    
+    <!--Fonts:bold,semibold,medium-->
+    <h1 class="font-bold">font</h1>
+
+    <!--margin padding top bottom left right horizontal vertical:m p t b l r x y-->
+    <span class="m-5  bg-blue-400">margin</span>
+    <span class="p-5 bg-blue-400">padding </span>
+    <span class="pt-5  bg-red-400">top</span>
+    <span class="pb-5  bg-green-400">bottom</span>
+    <span class="pl-5  bg-purple-400">left</span>
+    <span class="pr-5  bg-pink-400">right</span>
+    <span class="px-5  bg-red-600">horizontal</span>
+    <span class="py-5  bg-blue-200">vertical</span>
+
+    <!--rotate-->
+    <div class="rotate-90">rotate</div>
+    <!--height width:h  w svh all in rem-->
+    <div class="bg-red-200 w-50">box</div>
+    <div class="bg-blue-200 h-50">box</div>
+
+    <!--display flex:centre  evenly between top bottom flex-col-->
+    <div class="flex justify-evenly">
+    <div>item</div>
+    <div>item</div>
+    <div>item</div>
+    <div>item</div>
+</div>
+    <div class="hidden">items</div>
+    <!--display grid:grid-cols-number-->
+
+    <div class="bg-teal-300 h-50 w-50 m-10  border-red-500 border-t-3 rounded-2xl shadow-xl">class</div>
+    <!--position:relative,stick,fixed,absolute-->
+    <div class="sticky top-0 right-0 h-20 w-20 bg-slate-800 m-10">x</div>
+
+    <!--responsive design:sm,md,lg,xl-->
+    <h1 class="m-10 font-semibold text-2xl md:text-3xl lg: text 3xl xl:text-5xl">responsive</h1>
+
+    <!--responsive display-->
+    <div class="block lg:hidden">responsive design</div>
+    <div class="text-red-500 sm:text-blue-500 md:text-green-500 lg:text-black">text</div>
+
+</body>
+</html>
